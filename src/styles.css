@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+p {
+    font-size: large;
+    margin: 1vh auto;
+}
+
+.header-container {
+    text-align: center;
+    background-color: #351F39;
+    color: #F4E8C1;
+    height: 10vh;
+    padding: 2vh;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 6vh auto;
+    
+}
+
+.search {
+    background-color: #709FB0;
+    width: 20vw;
+    border-radius: 8px;
+    height: 6vh;
+}
+
+.search-btn {
+    background-color: #709FB0;
+    border-radius: 8px;
+    height: 6vh;
+   
+}
+
+.weather-card {
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+    background-color: #726A95;
+    opacity: 80%;
+    border-radius: 16px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #351F39;
+    color: #F4E8C1;
+    height: 8vh;
+    padding: 2vh;
+}
+
+@media only screen and (max-width: 660px) {
+    .search {
+        width: 60vw;
+    }
+    .weather-card {
+        width: 80vw;
+        height: 50vh;
+    }
+}
