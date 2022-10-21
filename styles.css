@@ -62,3 +62,13 @@ p {
     height: 8vh;
     padding: 2vh;
 }
+
+@media only screen and (max-width: 660px) {
+    .search {
+        width: 60vw;
+    }
+    .weather-card {
+        width: 80vw;
+        height: 50vh;
+    }
+}
